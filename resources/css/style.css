@@ -94,24 +94,33 @@ a {
   width: 1000px;
   border: white solid;
 }
+.teaofthemonth {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 140px;
+}
 .teas{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   height:700px;
   width: 1000px;
   border: white solid;
 }
 .tea{
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: white 2px;
+  border: white solid;
 }
 .teaimage{
   height:200px;
   width: 300px;
-
 }

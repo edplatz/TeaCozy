@@ -85,7 +85,7 @@ a {
    margin-right: 0;
  }
 /* Universal Styles - News Stories */
-.middlecontainer {
+.teascontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +124,7 @@ a {
   height:200px;
   width: 300px;
 }
-.bottomcontainer {
+.locationscontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,4 +155,15 @@ a {
   align-items: center;
   background-color: black;
   opacity: 1;
+}
+
+.contactcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 200px;
+}
+h5 {
+  margin-bottom: 0;
 }
